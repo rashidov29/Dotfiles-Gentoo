@@ -1,12 +1,12 @@
 [colors.primary]
 background = "#000000"
-foreground = "#E0AAFF" # Açık lavanta metin
+foreground = "#E0AAFF"
 dim_foreground = "#9D4EDD"
 bright_foreground = "#E0AAFF"
 
 [colors.cursor]
 text = "#100E17"
-cursor = "#C77DFF" # Parlak mor imleç
+cursor = "#C77DFF"
 
 [colors.vi_mode_cursor]
 text = "#100E17"
@@ -34,12 +34,12 @@ background = "#9D4EDD"
 
 [colors.selection]
 text = "#FFFFFF"
-background = "#3C096C" # Seçili alan için derin mor
+background = "#3C096C"
 
 [colors.normal]
 black = "#1A1625"
-red = "#FF5555"     # Hata mesajları için korunmuş kırmızı
-green = "#B497FF"   # Başarı mesajları için neon mor
+red = "#FF5555" 
+green = "#B497FF"  
 yellow = "#E0AAFF"
 blue = "#7B2CBF"
 magenta = "#C77DFF"
