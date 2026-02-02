@@ -1,0 +1,75 @@
+[colors.primary]
+background = "#000000"
+foreground = "#E0AAFF" # Açık lavanta metin
+dim_foreground = "#9D4EDD"
+bright_foreground = "#E0AAFF"
+
+[colors.cursor]
+text = "#100E17"
+cursor = "#C77DFF" # Parlak mor imleç
+
+[colors.vi_mode_cursor]
+text = "#100E17"
+cursor = "#7B2CBF"
+
+[colors.search.matches]
+foreground = "#100E17"
+background = "#7B2CBF"
+
+[colors.search.focused_match]
+foreground = "#100E17"
+background = "#E040FB"
+
+[colors.footer_bar]
+foreground = "#100E17"
+background = "#3C096C"
+
+[colors.hints.start]
+foreground = "#100E17"
+background = "#FF77FF"
+
+[colors.hints.end]
+foreground = "#100E17"
+background = "#9D4EDD"
+
+[colors.selection]
+text = "#FFFFFF"
+background = "#3C096C" # Seçili alan için derin mor
+
+[colors.normal]
+black = "#1A1625"
+red = "#FF5555"     # Hata mesajları için korunmuş kırmızı
+green = "#B497FF"   # Başarı mesajları için neon mor
+yellow = "#E0AAFF"
+blue = "#7B2CBF"
+magenta = "#C77DFF"
+cyan = "#8A2BE2"
+white = "#C77DFF"
+
+[colors.bright]
+black = "#3C006B"
+red = "#FF6E6E"
+green = "#D0BCFF"
+yellow = "#F0E6FF"
+blue = "#9D4EDD"
+magenta = "#E040FB"
+cyan = "#B497FF"
+white = "#FFFFFF"
+
+[colors.dim]
+black = "#100E17"
+red = "#9D4EDD"
+green = "#5A189A"
+yellow = "#3C096C"
+blue = "#240046"
+magenta = "#3C006B"
+cyan = "#1A1625"
+white = "#585B70"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#E040FB"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#E0AAFF"
