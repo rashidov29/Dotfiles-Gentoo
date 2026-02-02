@@ -4,7 +4,7 @@
 
 # 🌌 Ontological Void
 
-A minimalist, deep-purple workspace powered by **Gentoo Linux**. Focused on efficiency, aesthetic consistency, and anarchist ontology.
+A minimalist, deep-purple workspace powered by **Gentoo Linux**. Focused on efficiency and aesthetic consistency.
 
 ---
 
