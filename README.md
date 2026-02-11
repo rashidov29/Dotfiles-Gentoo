@@ -21,8 +21,8 @@ A minimalist, deep-purple workspace powered by **Gentoo Linux**. Focused on effi
 ---
 
 ## 🔮 Showcase
-<img width="1366" height="768" alt="screenshot" src="https://github.com/user-attachments/assets/61d126eb-a79f-4b99-9422-18c9df6f1344" />
-<img width="1366" height="768" alt="screenshot2" src="https://github.com/user-attachments/assets/4fbb1434-6ff9-4994-8411-78e902719288" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cc0d560f-044e-4c73-a109-96c71d182c76" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5cfdc719-569d-4fb5-83e7-5d1fb57d5cd4" />
 ---
 
 ## 📂 Structure
