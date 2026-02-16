@@ -1,0 +1,58 @@
+# Ana Renkler - Koyu ve Derin Mor
+theme[main_bg]="#11111b"
+theme[main_fg]="#cba6f7"
+theme[title]="#f5c2e7"
+theme[hi_fg]="#f5c2e7"
+theme[selected_bg]="#313244"
+theme[selected_fg]="#f5c2e7"
+theme[inactive_fg]="#585b70"
+theme[graph_text]="#cba6f7"
+theme[meter_bg]="#313244"
+theme[proc_misc]="#cba6f7"
+
+# Kutu Çerçeveleri - Canlı Mor
+theme[cpu_box]="#8839ef"
+theme[mem_box]="#8839ef"
+theme[net_box]="#8839ef"
+theme[proc_box]="#8839ef"
+theme[div_line]="#585b70"
+
+# Sıcaklık Gradyanı - Mordan Koyu Lavantaya
+theme[temp_start]="#7287fd"
+theme[temp_mid]="#8839ef"
+theme[temp_end]="#cba6f7"
+
+# CPU ve Grafik Renkleri - Koyu Mor Tonları
+theme[cpu_start]="#585b70"
+theme[cpu_mid]="#8839ef"
+theme[cpu_end]="#cba6f7"
+
+# Bellek (RAM) - Koyu Mor Geçişleri
+theme[free_start]="#313244"
+theme[free_mid]="#585b70"
+theme[free_end]="#8839ef"
+
+theme[cached_start]="#313244"
+theme[cached_mid]="#585b70"
+theme[cached_end]="#8839ef"
+
+theme[available_start]="#313244"
+theme[available_mid]="#585b70"
+theme[available_end]="#8839ef"
+
+theme[used_start]="#585b70"
+theme[used_mid]="#8839ef"
+theme[used_end]="#cba6f7"
+
+# Ağ (Download/Upload) - Lavanta ve Mor
+theme[download_start]="#7287fd"
+theme[download_mid]="#8839ef"
+theme[download_end]="#cba6f7"
+theme[upload_start]="#7287fd"
+theme[upload_mid]="#8839ef"
+theme[upload_end]="#cba6f7"
+
+# Süreçler (Processes)
+theme[process_start]="#7287fd"
+theme[process_mid]="#8839ef"
+theme[process_end]="#cba6f7"

@@ -1,0 +1,84 @@
+{
+    "logo": {
+        "source": "gentoo",
+        "padding": {
+            "top": 0,
+            "right": 4
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "type": "title",
+            "format": "\u001b[35msystem/\u001b[0m"
+        },
+        {
+            "type": "os",
+            "key": "\u001b[34m├── os\u001b[0m    "
+        },
+        {
+            "type": "kernel",
+            "key": "\u001b[34m├── ker\u001b[0m   "
+        },
+        {
+            "type": "uptime",
+            "key": "\u001b[34m├── up\u001b[0m    "
+        },
+        {
+            "type": "packages",
+            "key": "\u001b[34m├── pkg\u001b[0m   "
+        },
+        {
+            "type": "shell",
+            "key": "\u001b[34m├── sh\u001b[0m    "
+        },
+        {
+            "type": "terminal",
+            "key": "\u001b[34m├── term\u001b[0m  "
+        },
+        {
+            "type": "wm",
+            "key": "\u001b[34m└── wm\u001b[0m    "
+        },
+        {
+            "type": "command",
+            "text": " ",
+            "format": "{#0}"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[35mhardware/\u001b[0m"
+        },
+        {
+            "type": "cpu",
+            "key": "\u001b[34m├── cpu\u001b[0m   "
+        },
+        {
+            "type": "gpu",
+            "key": "\u001b[34m├── gpu\u001b[0m   "
+        },
+        {
+            "type": "display",
+            "key": "\u001b[34m├── res\u001b[0m   "
+        },
+        {
+            "type": "memory",
+            "key": "\u001b[34m├── ram\u001b[0m   "
+        },
+        {
+            "type": "swap",
+            "key": "\u001b[34m├── swap\u001b[0m  "
+        },
+        {
+            "type": "disk",
+            "key": "\u001b[34m└── disk\u001b[0m  "
+        },
+        {
+            "type": "colors",
+            "key": " ",
+            "symbol": "circle"
+        }
+    ]
+}

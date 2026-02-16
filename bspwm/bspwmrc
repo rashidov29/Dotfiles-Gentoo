@@ -1,0 +1,69 @@
+#!/bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+monitor=$(bspc query -M | head -n1)
+bspc monitor $monitor -d 1 2 3 4 5 6 7 8 9 10
+
+bspc config border_width          2
+bspc config window_gap            5
+bspc config top_padding           35
+bspc config bottom_padding        0
+bspc config left_padding          8
+bspc config right_padding         8
+
+bspc config focused_border_color  "#999999"
+bspc config normal_border_color   "#1a1a1a"
+bspc config active_border_color   "#444444"
+bspc config presel_feedback_color "#666666"
+
+bspc config split_ratio           0.50
+bspc config borderless_monocle    true
+bspc config gapless_monocle       true
+bspc config click_to_focus        true
+bspc config focus_follows_pointer true
+bspc config pointer_modifier      mod4
+bspc config pointer_action1       move
+bspc config pointer_action2       resize_side
+bspc config pointer_action3       resize_corner
+bspc config initial_polarity      first_child
+bspc config tight_constraints     true
+bspc config ignore_ewmh_struts    false
+
+bspc rule -a "*:*:popup_menu" state=floating border=off focus=off manage=off
+bspc rule -a "*:*:dropdown_menu" state=floating border=off focus=off manage=off
+bspc rule -a "*:*:menu" state=floating border=off focus=off manage=off
+bspc rule -a "*:*:tooltip" state=floating border=off focus=off manage=off
+
+bspc rule -a "About" state=floating
+bspc rule -a "Preferences" state=floating
+bspc rule -a "*:*:dialog" state=floating
+bspc rule -a "Pavucontrol" state=floating
+bspc rule -a "Blueman-manager" state=floating
+bspc rule -a "copyq" state=floating
+bspc rule -a "Steam" state=floating
+bspc rule -a "Google-chrome" desktop='^2'
+bspc rule -a "nemo" desktop='^3'
+bspc rule -a "TelegramDesktop" desktop='^6'
+bspc rule -a LibreWolf desktop='^1' follow=on
+bspc rule -a Firefox desktop='^1' follow=on
+
+/usr/bin/lxpolkit &
+nm-applet --indicator &
+greenclip daemon &
+dunst -conf ~/.config/dunst/dunstrc &
+nemo --daemon &
+mpd &
+mpDris2 &
+pipewire &
+wireplumber &
+pipewire-pulse &
+gentoo-pipewire-launcher &
+copyq --start-server &
+picom --config ~/.config/picom/picom.conf -b &
+feh --bg-fill ~/.config/sway/scripts/bg_random_auto &
+setxkbmap -layout tr -option caps:escape &
+(sleep 1; ~/.config/polybar/launch.sh) &
+~/.config/bspwm/scripts/wallpaper_shuffler.sh &
+
+xsetroot -cursor_name left_ptr &
