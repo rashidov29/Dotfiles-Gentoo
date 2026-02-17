@@ -1,0 +1,90 @@
+configuration {
+    modi: "dmenu";
+    show-icons: true;
+}
+
+* {
+    bg: #000000;
+    purple: #7b2cbf;
+    fg: #7b2cbf; /* Yazı rengini koyu mor yaptık */
+    border-color: transparent; /* Varsayılan tüm borderları gizle */
+}
+
+window {
+    width: 1100px;
+    height: 750px;
+    background-color: @bg;
+    border: 2px;
+    border-color: @purple; /* Sadece dış ana çerçeve mor olsun */
+}
+
+mainbox {
+    background-color: @bg;
+    border: 0px;
+    children: [ inputbar, listview ];
+}
+
+inputbar {
+    background-color: @bg;
+    padding: 20px;
+    border: 0px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: @purple;
+    text-color: @bg;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+entry {
+    background-color: @bg;
+    text-color: @fg;
+    padding: 8px;
+}
+
+listview {
+    background-color: @bg;
+    columns: 3;
+    lines: 2;
+    spacing: 20px;
+    cycle: true;
+    dynamic: true;
+    layout: vertical;
+    fixed-columns: true;
+    border: 0px; /* Liste etrafındaki beyaz çizgiyi kaldırır */
+}
+
+element {
+    background-color: @bg;
+    orientation: vertical;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px; /* Elemanların etrafındaki beyaz çizgiyi kaldırır */
+}
+
+element-icon {
+    size: 220px;
+    horizontal-align: 0.5;
+    background-color: transparent;
+    border: 0px;
+}
+
+element-text {
+    font: "JetBrainsMono Nerd Font 10";
+    text-color: @purple; /* Yazı rengi koyu mor */
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+    background-color: transparent;
+}
+
+element selected {
+    background-color: #111111; /* Seçili olduğunda çok hafif bir gri/siyah tonu */
+    border: 2px;
+    border-color: @purple;
+}
+
+element selected text {
+    text-color: #ffffff; /* Seçili olanın yazısı beyaz olsun ki okunsun */
+}
