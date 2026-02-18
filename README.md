@@ -18,7 +18,7 @@ Welcome to my personal digital garden! This is a collection of my configuration 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/71e0fb71-1648-440c-8dd4-2377bed7e3fb" />
 ---
 
-## 🚀 Installation (For Me)
+## 🚀 Installation
 
 ```bash
 git clone [https://github.com/your-username/Dotfiles-Gentoo.git](https://github.com/your-username/Dotfiles-Gentoo.git)
