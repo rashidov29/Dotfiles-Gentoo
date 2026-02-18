@@ -18,16 +18,6 @@ Welcome to my personal digital garden! This is a collection of my configuration 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/71e0fb71-1648-440c-8dd4-2377bed7e3fb" />
 ---
 
-## 🛠️ Special Features
-
-### 🔀 The WM Selector
-I wrote a custom script in `.zprofile` that lets me choose my environment right at login. No Display Manager needed! Just pure TTY bliss.
-
-### 🎧 Audio Fixes
-If you have an **HP laptop with ALC3227**, check out my `modprobe` tweaks. It took me a while, but the headphones finally work! ʕ-ᴥ-ʔ
-
----
-
 ## 🚀 Installation (For Me)
 
 ```bash
