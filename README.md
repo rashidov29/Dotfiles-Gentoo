@@ -34,6 +34,6 @@ Welcome to my personal digital garden! This is a collection of my configuration 
 ## 🚀 Installation
 
 ```bash
-git clone [https://github.com/your-username/Dotfiles-Gentoo.git](https://github.com/your-username/Dotfiles-Gentoo.git)
-cd Dotfiles-Gentoo
-# Be careful with the symlinks!
+git clone https://github.com/rashidov29/Dotfiles-Gentoo.git
+cd ~/Dotfiles-Gentoo
+
