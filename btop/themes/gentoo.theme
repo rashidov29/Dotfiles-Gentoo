@@ -1,0 +1,51 @@
+theme[main_bg]="#000000"
+theme[main_fg]="#c0caf5"
+theme[title]="#ffffff"
+theme[hi_fg]="#9d7cd8"
+theme[selected_bg]="#1c152d"
+theme[selected_fg]="#ffffff"
+theme[inactive_fg]="#3b4261"
+theme[graph_text]="#565f89"
+theme[meter_bg]="#1c152d"
+theme[proc_misc]="#9d7cd8"
+
+# Kutular ve Ayraçlar (Koyu Mor)
+theme[cpu_box]="#342a4d"
+theme[mem_box]="#342a4d"
+theme[net_box]="#342a4d"
+theme[proc_box]="#342a4d"
+theme[div_line]="#1c152d"
+
+# Sıcaklık Grafiği (Mordan Kırmızıya Hafif Geçiş)
+theme[temp_start]="#9d7cd8"
+theme[temp_mid]="#bb9af7"
+theme[temp_end]="#f7768e"
+
+# İşlemci (Koyu Mordan Parlak Mora)
+theme[cpu_start]="#342a4d"
+theme[cpu_mid]="#9d7cd8"
+theme[cpu_end]="#bb9af7"
+
+# Boş Alanlar (Sönük Morlar)
+theme[free_start]="#1c152d"
+theme[free_mid]="#342a4d"
+theme[free_end]="#4c3c6d"
+
+# Kullanılan Alanlar (Parlak Mor Geçişi)
+theme[used_start]="#4c3c6d"
+theme[used_mid]="#9d7cd8"
+theme[used_end]="#bb9af7"
+
+# İndirme ve Yükleme (Mavi/Mor Uyumu)
+theme[download_start]="#565f89"
+theme[download_mid]="#7aa2f7"
+theme[download_end]="#7dcfff"
+
+theme[upload_start]="#565f89"
+theme[upload_mid]="#9d7cd8"
+theme[upload_end]="#bb9af7"
+
+# İşlemler (Zarif Geçiş)
+theme[process_start]="#7aa2f7"
+theme[process_mid]="#9d7cd8"
+theme[process_end]="#bb9af7"
