@@ -24,7 +24,7 @@ Welcome to my personal digital garden! This is a collection of my configuration 
 `betterlockscreen`
 `brightnessctl`
 `redshift`
-`scrot`
+`maim`
 `xclip`
 `nsxiv`
 `nm-applet`
