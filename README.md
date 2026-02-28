@@ -27,6 +27,9 @@ Welcome to my personal digital garden! This is a collection of my configuration 
 `scrot`
 `xclip`
 `nsxiv`
+`nm-applet`
+`blueman-manager`
+`copyq`
 
 ## 📸 Screenshots
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d514ef12-d808-404a-a3c7-c9b2e3b88e2a" />
